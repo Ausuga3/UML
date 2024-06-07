@@ -1,0 +1,47 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLActor</id><coordinates><x>0</x><y>170</y><w>60</w><h>110</h></coordinates><panel_attributes>Actor</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>:Fachada</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>290</y><w>20</w><h>100</h></coordinates><panel_attributes>bg=black</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>:Saldo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>:Registrador</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>860</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>:Dispensador</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>20</y><w>40</w><h>890</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;870;10;670;20;670;20;90;10;90;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>110</y><w>20</w><h>580</h></coordinates><panel_attributes>bg=black</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>:Validacion</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>20</y><w>40</w><h>890</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;870;10;370;20;370;20;270;10;270;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>570</x><y>310</y><w>20</w><h>130</h></coordinates><panel_attributes>bg=black</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>20</y><w>40</w><h>900</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;880;10;420;20;420;20;290;10;290;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>730</x><y>20</y><w>40</w><h>910</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;890;10;520;20;520;20;300;10;300;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>900</x><y>340</y><w>20</w><h>120</h></coordinates><panel_attributes>bg=black</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>730</x><y>320</y><w>20</w><h>220</h></coordinates><panel_attributes>bg=black</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>290</y><w>240</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m1=                       Elegir producto             
+</panel_attributes><additional_attributes>220;20;60;20</additional_attributes></element><element><id>Relation</id><coordinates><x>740</x><y>320</y><w>180</w><h>90</h></coordinates><panel_attributes>lt=&lt;-
+m1= 
+  Precio=Alimento
+
+
+
+</panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>440</y><w>700</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
+m1=
+Despachar (Eleccion)     
+     
+</panel_attributes><additional_attributes>10;20;680;20</additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>20</y><w>40</w><h>920</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;900;10;440;20;440;20;320;10;320;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>20</x><y>260</y><w>210</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m1=                         (Insercion)          
+</panel_attributes><additional_attributes>190;20;60;20</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>350</y><w>190</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
+m1=  
+ Rechaza(insercion)
+m2=
+	Billete/Moneda invalida
+</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>270</y><w>210</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m1=                         (Insercion)          
+</panel_attributes><additional_attributes>190;20;30;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1030</x><y>530</y><w>20</w><h>160</h></coordinates><panel_attributes>bg=black</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>550</y><w>830</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
+m1=
+             Cambio en reserva
+m2=
+             Regresar cambio 
+     
+</panel_attributes><additional_attributes>10;20;810;20</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>600</y><w>830</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m1=
+                  Despachar Seleccion
+</panel_attributes><additional_attributes>10;20;810;20</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>300</y><w>230</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m1=                        Producto disponible
+</panel_attributes><additional_attributes>210;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>400</y><w>370</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m1=producto  no disponible
+</panel_attributes><additional_attributes>10;20;350;20</additional_attributes></element><element><id>Relation</id><coordinates><x>740</x><y>510</y><w>310</w><h>90</h></coordinates><panel_attributes>lt=&lt;-
+m1= 
+  Precio&gt;Alimento
+
+
+
+</panel_attributes><additional_attributes>290;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>670</y><w>830</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
+m1=
+                   Sin cambio en reserva
+m2=
+                    Regresar Insercion
+     
+</panel_attributes><additional_attributes>10;20;810;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1030</x><y>20</y><w>30</w><h>530</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;510</additional_attributes></element><element><id>Relation</id><coordinates><x>1030</x><y>680</y><w>30</w><h>240</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;220</additional_attributes></element><element><id>UMLClass</id><coordinates><x>980</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>:Devoluciones</panel_attributes><additional_attributes></additional_attributes></element></diagram>
